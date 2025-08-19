@@ -83,13 +83,18 @@ public:
 };
 
 int main() {
+    cout << "Doubly Linked List Output:" << endl;
     DoublyList d;
     d.insertBegin(10);
     d.insertEnd(20);
     d.insertBegin(5);
+    cout << "After insertions: ";
     d.display();
     d.deleteBegin();
     d.deleteEnd();
+    cout << "After deletions: ";
     d.display();
+    cout << endl;
     return 0;
 }
+
