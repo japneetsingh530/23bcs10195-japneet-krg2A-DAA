@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <map>
+#include <iomanip>
 
 using namespace std;
 
@@ -15,9 +16,10 @@ int main() {
         freq[arr[i]]++;
     }
 
+    cout << "Element  Frequency" << endl;
     map<int, int>::iterator it;
     for (it = freq.begin(); it != freq.end(); ++it) {
-        cout << it->first << " " << it->second << endl;
+        cout << setw(7) << it->first << "  " << setw(9) << it->second << endl;
     }
 
     return 0;
