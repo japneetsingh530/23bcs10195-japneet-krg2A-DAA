@@ -18,6 +18,9 @@ int power(int base, int exp) {
 int main() {
     int base = 2;
     int exp = 10;
-    cout << power(base, exp) << endl;
+    int result = power(base, exp);
+    cout << "Base: " << base << endl;
+    cout << "Exponent: " << exp << endl;
+    cout << "Result: " << result << endl;
     return 0;
 }
