@@ -1,5 +1,5 @@
 // Code implement power function in O(logn) time complexity.
-
+// also submitted on leetocde
 
 #include <iostream>
 
